@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Comic-Sans; /* Имя шрифта */
+    src: url(fonts/Comic-Sans-MS.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: cuphead; /* Имя шрифта */
+    src: url(fonts/cupheadmemphis_medium.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Bendy; /* Имя шрифта */
+    src: url(fonts/BendyStraw.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+	margin: 0;
+}
+.h600 {
+	height: 600px;
+}
+.lod {
+	width: 800px; 
+	height: 500px; 
+	background-color: black; 
+	margin-left: auto;
+	 margin-right: auto;
+}
+
+.skrin-div {
+	width: 910px;
+	height: 300px; 
+}
+.head {
+	height: 70px; 
+	background-color: black;
+}
+.miniblock {
+	height: 200px; 
+	width: 150px; 
+	background-color: blue;
+	margin-left: 15px;
+}
+.block {
+	height: 400px; 
+	background-color: brown;
+}
+
+.block1 {
+	width: 300px;
+	height: 150px;
+	background-color: black;
+}
+.block2 {
+	width: 900px;
+	height: 300px;
+	background-color: red;
+}
+.block3 {
+	width: 1170px;
+	height: 250px; 
+	background-color: white; 
+	margin-left: auto;
+	 margin-right: auto; 
+}
+.w300-h120 {
+	width: 300px; 
+	height: 150px;
+}
+.pd-10 {
+	padding-top: 10px;
+}
+.d-flex {
+	display: flex;
+}
+
+.center-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+.left5 {
+	margin-left: 5px;
+}
+.pd-50 {
+	padding-top: 50px;
+}
+.mrg-t-100 {
+	margin-top: 100px;
+}
+.tx-center {
+	text-align: center;
+}
+.h200 {
+	height: 200px;
+}
+.h800 {
+	height: 800px;
+}
+.mrgl-170 {
+	margin-left: 170px;
+}
+.sans-text {
+	font-family: Comic-Sans;
+	color: white;
+}
+.cuphead-text {
+	font-family: cuphead;
+}
+.bendy-text {
+	font-family: Bendy;
+	color: white;
+}
+.mrg-l-20 {
+	margin-left: 20px;
+}
+.bg-black {
+	background-color: black;
+}
+
+.characters {
+	width: 150px;
+	transition: 1s;
+	z-index: 1;
+}
+.characters:hover {
+	width: 200px;	
+}
+
+
+
+
